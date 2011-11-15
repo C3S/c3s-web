@@ -2,14 +2,33 @@ body {
 }
 
 #header {
-    text-align: center;
+    margin: 0 10em 0 10em;
     }
+
+#header h1 {
+
+    padding: 3em 0 0 1em;
+    background-color: red;
+    color: white;
+}
 
 #navigation {
     float: left;
     text-align: left;
     padding: 2em;
     width: 14em;
+}
+
+#navigation li {
+    margin: 0 0 1em 0;
+    padding: 3em 0 0 1em;
+    background-color: red;
+    list-style-type: none;
+}
+
+#navigation a {
+    color:white;
+    font-weight: bold;
 }
 
 #footer {
@@ -26,3 +45,7 @@ body {
     padding: 2em;
 }
 
+#content h1{
+    border-color: red;
+    border: 1em;
+}
