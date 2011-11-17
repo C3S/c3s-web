@@ -2,7 +2,7 @@ body {
 }
 
 #header {
-    margin: 0 10em 0 10em;
+    margin: 0 10em 0 0;
     }
 
 #header h1 {
@@ -43,9 +43,11 @@ body {
     min-width: 30em;
     margin: 0 10em 0 16em;
     padding: 2em;
+    border-bottom: 1px;
+    border-color: red;
 }
 
 #content h1{
     border-color: red;
-    border: 1em;
+    border-bottom: 1px;
 }
