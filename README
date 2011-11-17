@@ -3,6 +3,13 @@ C3S Web Page
 Repository for sharing css, and html
 For now, everything from the "new" branch get's w3c Validation.
 
-Enjoy,
+There's a layout proposal in the ink/ Folder. I didn't pay to much attention to margins etc. 'Pixel-true' layout is not wanted for accessible reasons (zooming in and out). Thus I create margins, paddings, borders and so on an so forth - so everything _should_ look neatly aligned.
 
-    Your C3S Team
+I will intent the "Resources" section so it matches with the "ABOUT"-Box.
+
+Goals: HTML5, CSS - and everything validatet. Want to use HTML5 Boilerplate as a basis for my CSS. I consider the blog to be based upon xml-entries, using xsl as a template engine.
+
+But first of all: get the CSS running.
+
+Enjoy,
+    koeart
