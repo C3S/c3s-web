@@ -1,0 +1,53 @@
+body {
+}
+
+#header {
+    margin: 0 10em 0 0;
+    }
+
+#header h1 {
+
+    padding: 3em 0 0 1em;
+    background-color: red;
+    color: white;
+}
+
+#navigation {
+    float: left;
+    text-align: left;
+    padding: 2em;
+    width: 14em;
+}
+
+#navigation li {
+    margin: 0 0 1em 0;
+    padding: 3em 0 0 1em;
+    background-color: red;
+    list-style-type: none;
+}
+
+#navigation a {
+    color:white;
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    left: auto;
+}
+
+#content {
+    text-align: left;
+    min-width: 30em;
+    margin: 0 10em 0 16em;
+    padding: 2em;
+    border-bottom: 1px;
+    border-color: red;m
+}
+
+#content h1{
+    border-color: red;
+    border-bottom: 1px;
+}
