@@ -1,53 +1,75 @@
-body {
+#header {
+    height: 10em;
+    padding: 2em;
+/*    margin: 0 0 2em 0;*/
+    border: 1px solid black;
 }
 
-#header {
-    margin: 0 10em 0 0;
-    }
-
-#header h1 {
-
-    padding: 3em 0 0 1em;
+#header span{
+    position: absolute;
     background-color: red;
+    color: white;
+    padding: 2em;
+    margin: 0em;
+    /*border: 1px solid black;*/
+}
+#header a:link {
     color: white;
 }
 
-#navigation {
-    float: left;
-    text-align: left;
+#header span.big {
+    min-width: 8em;
+    min-height: 8em;
+}
+
+#header span.small {
+    width: 5em;
+    height: 5em;
+}
+
+#page {
+    margin: 1em 0 10em 0;
     padding: 2em;
-    width: 14em;
-}
-
-#navigation li {
-    margin: 0 0 1em 0;
-    padding: 3em 0 0 1em;
-    background-color: red;
-    list-style-type: none;
-}
-
-#navigation a {
-    color:white;
-    font-weight: bold;
-}
-
-#footer {
-    text-align: center;
-    position: relative;
-    bottom: 0px;
-    left: auto;
+    border: 1px solid green;
 }
 
 #content {
-    text-align: left;
-    min-width: 30em;
-    margin: 0 10em 0 16em;
+    margin: 0 20em 0 20em;
+    border: 5px solid red;
+    border-top: none;
+    border-bottom: none;
     padding: 2em;
-    border-bottom: 1px;
-    border-color: red;
 }
 
-#content h1{
-    border-color: red;
-    border-bottom: 1px;
+.entry {
+    border-bottom: 5px solid red;
+    position: relative;
+    padding: 0 0 2em 0;
 }
+
+.entry h1{
+    color: black;
+    text-decoration: underline;
+    float: left;
+}
+
+.entry span.date {
+    color: red;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    padding: 2em;
+}
+
+.entry p {
+    clear: left;
+}
+
+.entry div.signum {
+    float: none;
+    color:red;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border: 5px solid white;
+
