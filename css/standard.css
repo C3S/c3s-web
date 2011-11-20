@@ -1,47 +1,133 @@
-#header {
-    height: 10em;
-    padding: 2em;
-/*    margin: 0 0 2em 0;*/
-    border: 1px solid black;
+body {
+    position: relative;
+    text-size: 1em;
 }
 
-#header span{
-    position: absolute;
-    background-color: red;
-    color: white;
-    padding: 2em;
-    margin: 0em;
+div#header {
+    /*height: 10em;*/
+/*    padding: 4em 2em 0 2em;*/
+    margin: 10em 0em 0;
     /*border: 1px solid black;*/
+    text-align: center;
 }
-#header a:link {
+
+ul#navigation {
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul#navigation li {
+    font-size: 110%;
+    list-style: none;
+    display: inline;
+    background-color: red;
+    margin: 0 3%;
+    padding: 5% 3% 0;
+    text-align: justify;
+ /*   width: 6em;
+    
+    height: 6em;
+    float: left;*/
+}
+
+ul#navigation li.active {
+    background-color: white;
+/*    border: .2em solid red;*/
+}
+
+ul#navigation li.big {
+    padding: 7% 5% 0;
+}
+
+ul#navigation li.big.right {
+    margin: 0 0 0 3%;
+}
+
+ul#navigation li.big.left {
+    margin: 0 3% 0 0;
+}
+
+ul#navigation a:link {
     color: white;
+    font-weight: bold;
 }
 
-#header span.big {
-    min-width: 8em;
-    min-height: 8em;
+ul#navigation li.active a:link {
+    color: black;
 }
 
-#header span.small {
-    width: 5em;
-    height: 5em;
+ul#navigation div {
+    clear: left;
 }
 
 #page {
     margin: 1em 0 10em 0;
     padding: 2em;
-    border: 1px solid green;
+/*    border: 1px solid green;*/
+}
+.sidebar {
+    /*border:1px solid yellow;*/
+    position: fixed;
+    margin: 5em 1em;
+    overflow: visible;
 }
 
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    color: red;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.sidebar.left {
+    left: 0px;
+}
+
+.sidebar.right {
+    right: 3em;
+}
+
+.sidebar a:link {
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar h1 {
+    font-size: 1.2em;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.sidebar table {
+    font-weight: bold;
+    caption-side: bottom;
+}
+
+.sidebar table a:link {
+    color: red;
+}
+
+
 #content {
-    margin: 0 20em 0 20em;
+    margin: 0 15% 0 15%;
     border: 5px solid red;
     border-top: none;
     border-bottom: none;
     padding: 2em;
+    float: left;
+    position: absolute;
 }
 
 .entry {
+    clear: both;
     border-bottom: 5px solid red;
     position: relative;
     padding: 0 0 2em 0;
@@ -54,11 +140,12 @@
 }
 
 .entry span.date {
-    color: red;
+    color: black;
+    font-weight: bold;
     text-align: right;
     position: absolute;
     right: 0px;
-    padding: 2em;
+    padding: 2em 2em 0;
 }
 
 .entry p {
@@ -72,4 +159,5 @@
     right: 0px;
     bottom: 0px;
     border: 5px solid white;
-
+    padding: 0 2em;
+}
